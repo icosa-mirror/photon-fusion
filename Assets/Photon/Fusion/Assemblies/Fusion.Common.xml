@@ -207,5 +207,32 @@
             Flags for DotNetVersion
             </summary>
         </member>
+        <member name="T:Fusion.Versioning">
+            <summary>
+            The Versioning class provides methods and properties related to versioning.
+            </summary>
+        </member>
+        <member name="F:Fusion.Versioning.InvalidVersion">
+            <summary>
+            Represents an invalid version with all components set to zero.
+            </summary>
+        </member>
+        <member name="P:Fusion.Versioning.GetCurrentVersion">
+            <summary>
+            Gets the current version of the assembly.
+            </summary>
+        </member>
+        <member name="M:Fusion.Versioning.ShortVersion(System.Version)">
+            <summary>
+            Get the short version of the version.
+            </summary>
+            <param name="version">The version to get the short version of.</param>
+        </member>
+        <member name="M:Fusion.Versioning.AssemblyFileVersion">
+            <summary>
+            Gets the assembly version as a string.
+            </summary>
+            <returns>The assembly version as a string.</returns>
+        </member>
     </members>
 </doc>
